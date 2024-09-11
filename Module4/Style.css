@@ -1,0 +1,131 @@
+/* GLOBAL STYLES
+----------------------------------------------------
+/*
+    https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+background-color: beige;
+margin: 0;
+font-family: "Audiowide", sans-serif;
+}
+
+/* links */
+a {
+    color: green;
+}
+a:hover {
+    color: rgb(198, 156, 236);
+    text-decoration: none;
+}
+
+footer a {
+    color: antiquewhite;
+}
+footer a:hover {
+    color: aqua;
+}
+
+.btn {
+    background-color: green;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.Home{
+    background: url(Background.JPG) fixed;
+    background-size: cover;
+
+
+}
+
+.Home .content-wrapper {
+    background: rgba(121, 238, 166, 0.644);
+}
+
+header::before {
+    background: url(Background.JPG);
+    background-size:cover;
+    content: "hello";
+    display: block;
+    height: 375px;
+}
+
+h1 {
+font-size: 64pt;
+font-style: italic;
+text-align: center;
+}
+
+h2 {
+font-size: 36pt;
+font-style: oblique;
+text-align: center;
+}
+
+h3 {
+font-size: 20pt;
+text-align: justify;
+
+}
+
+p{
+    text-align: left;
+    font-size: 16pt;
+    font-family: Josefin Sans;
+}
+.project-item{
+    display: flow-root;
+    margin: 30px 0;
+}
+.project-item img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.resume-section {
+    margin-bottom: 50px;
+}
+
+.resume-section h2 {
+border-bottom: 2px dashed;
+}
+
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+
+}
+
+footer {
+ background-color: rgb(165, 42, 104);
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+.Socials {
+    list-style-type: none;
+    padding: 0;
+    
+    }
+.Socials li {
+    display: inline-block;
+}
+.Socials img {
+    width: 32px;
+
+}
